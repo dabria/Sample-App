@@ -8,6 +8,10 @@ group :development, :test do
   gem 'rspec-rails', '2.11.0'
 end
 
+group :development do
+  gem 'annotate', '2.5.0'
+end
+
 gem 'therubyracer'
 
 # Gems used only for assets and not required
@@ -19,6 +23,8 @@ group :assets do
 end
 
 gem 'jquery-rails', '2.0.2'
+
+gem 'bcrypt-ruby', '3.0.1'
 
 group :test do
   gem 'capybara', '1.1.2'
